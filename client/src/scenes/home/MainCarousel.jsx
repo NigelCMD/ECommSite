@@ -83,6 +83,11 @@ const MainCarousel = () => {
                         backgroundCoor="rgb(0,0,0,0.4)"
                         position="absolute"
                         top="46%"
+                        left={isNonMobile ? "10%" : "0"}
+                        right={isNonMobile ? undefined : "0 auto"}
+                        margin={isNonMobile ? undefined : "0"}
+                        maxWidth={isNonMobile ? undefined : "240px"}
+
                     >
                         
                     </Box>
